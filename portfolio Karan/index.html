@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="icon1.jpg"/>
+</head>
+<body>
+    <div class="heading">
+      <img src="icon1.jpg" class="logo">
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Services.html">Services</a>
+            <a href="Projects.html">Projects</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+    </div>
+    <div class="image">
+    <p class="qty">
+        Hi, My name is <span class="qty1">Karan Nigam</span> and i am a passionate <!-- Element to contain animated typing -->
+        <span id="typed"></span></p>
+      <img src="./portbg.png" class="img" alt="bg">
+    </div>
+    <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['Web Developer.', 'Competitive Coder.', 'UI/UX Designer.','Open Source Enthusiast.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
